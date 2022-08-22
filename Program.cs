@@ -7,13 +7,13 @@
             Console.WriteLine("Welcome to MoodAnalyzer Problem");
 
             //UC1
-            HappySad happySad = new HappySad("i am in sad a mood");
+            HappySad happySad = new HappySad("happy mood");
             Console.WriteLine(happySad.AnalysingMood());
 
             //UC2
-            Console.WriteLine("mood anaylzer if invalid input");
-            InvalidMood invalidMood = new InvalidMood(" ");
-            Console.WriteLine(invalidMood.AnalysingMood());
+            //Console.WriteLine("mood anaylzer if invalid input");
+            //InvalidMood invalidMood = new InvalidMood(" ");
+            //Console.WriteLine(invalidMood.AnalysingMood());
         }
     }
 }
